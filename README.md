@@ -1,5 +1,5 @@
 ## Introduction
-This repository is the implementation of "Fully Convolutional Spatiotemporal Learning for Microstructure Evolution Prediction," which is a modified version of OpenSTLv0.3.0 developed by CAIRI AI Lab[^1]. This implementation focuses on the use of SimVPv2[^4] on microstructure evolution[^5] data.
+This repository is the implementation for "Fully Convolutional Spatiotemporal Learning for Microstructure Evolution Prediction," which is a modified version of OpenSTLv0.3.0 developed by CAIRI AI Lab[^1]. This implementation focuses on the use of SimVPv2[^4] on microstructure evolution[^5] data.
 
 ## Getting Started
 To create the enviornment, create an environment with "requirements.yaml." For exact repoducibility, "env-explicit.txt" may also be used to create the environment. Once the environment is created, activate the environment and run "python setup.py develop"
@@ -7,7 +7,7 @@ To create the enviornment, create an environment with "requirements.yaml." For e
 To run this network, use "CustomRuntine.py" with the provided data in this repository.
 
 ## Dataset
-A sample of preprocessed data is the "data" folder of this repository. This is provided by Yang et. al. in "Self-supervised Learning and Prediction of Microstructure Evolution with Recurrent Neural Networks"[^5]. The full dataset can be accessed here:
+A sample of preprocessed data is available for download under the readme file in "data/spin_data". This data is provided by Yang et. al. in "Self-supervised Learning and Prediction of Microstructure Evolution with Recurrent Neural Networks"[^5]. The full dataset can be accessed here:
 https://data.mendeley.com/datasets/xdnjy9p5zn/1
 
 ## Acknowledgments
