@@ -4,7 +4,7 @@ This repository is the implementation for "Fully Convolutional Spatiotemporal Le
 ## Getting Started
 To create the enviornment, create an environment with "requirements.yaml." For exact repoducibility, "env-explicit.txt" may also be used to create the environment. Once the environment is created, activate the environment and run "python setup.py develop"
 
-To run this network, use "CustomRuntine.py" with the provided data in this repository.
+To run this network, use "CustomRuntine.py" with the demo data in this repository (demo data preprocessing will be available soon).
 
 ## Dataset
 A sample of preprocessed data is available for download under the readme file in "data/spin_data". This data is provided by Yang et. al. in "Self-supervised Learning and Prediction of Microstructure Evolution with Recurrent Neural Networks"[^5]. The full dataset can be accessed here:
